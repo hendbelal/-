@@ -56,7 +56,19 @@
     </main>
 
     <footer>
-        <p>تواصل معي عبر البريد الإلكتروني: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
-    </footer>
+     
+            <form action="your-server-endpoint" method="post">
+                <label for="email">البريد الإلكتروني:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="password">كلمة المرور:</label>
+                <input type="password" id="password" name="password" required>
+                
+                <button type="submit">تواصل</button>
+            </form>
+        </footer>
+          
+
+   
 </body>
 </html>
